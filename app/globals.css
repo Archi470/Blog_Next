@@ -1,0 +1,176 @@
+/* General Styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9fc;
+  color: #333;
+  line-height: 1.6;
+}
+/* Container for Blog Content */
+div {
+  box-sizing: border-box;
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 15px;
+  border: 1px solid #ddd;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Box for Content */
+#box {
+  padding-right: 20px;
+  text-align: left; /* Align text to the left */
+  word-wrap: break-word; /* Ensure long words are broken and wrapped */
+  white-space: pre-wrap; /* Preserve spaces and line breaks while wrapping the content */
+}
+
+/* Blog Title */
+h1 {
+  text-align: center;
+  font-size: 2.8rem;
+  color: #4f46e5;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+/* List Styling */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #e3ecfc, #fefefe);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+li:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Post Title */
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #1f2937;
+  font-weight: 600;
+}
+
+/* Post Author and Metadata */
+p {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+  color: #6b7280;
+  font-weight: 400;
+}
+
+p:nth-child(3) {
+  color: #374151;
+  font-weight: 500;
+}
+
+/* Buttons Styling */
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #4f46e5;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: #4338ca;
+  transform: translateY(-3px);
+}
+
+button:active {
+  transform: translateY(2px);
+}
+
+/* Admin Login and Return to Homepage Button */
+div > a {
+  text-decoration: none;
+}
+
+div > a > button {
+  display: block;
+  margin: 2rem auto 0;
+  width: 60%;
+  text-align: center;
+  background-color: #4CAF50;
+}
+
+div > a > button:hover {
+  background-color: #3b9d40;
+}
+
+button.edit {
+  background-color: #f39c12;
+}
+
+button.edit:hover {
+  background-color: #e67e22;
+}
+
+button.delete {
+  background-color: #e74c3c;
+}
+
+button.delete:hover {
+  background-color: #c0392b;
+}
+
+/* Form Styling */
+form {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #f9f9fc;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #4f46e5;
+  outline: none;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  div {
+    padding: 1.5rem;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}
