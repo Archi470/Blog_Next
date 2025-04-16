@@ -23,7 +23,7 @@ export default function Homepage() {
   }, []);
 
   // Helper function to truncate content
-  const truncateContent = (content, maxLength = 10) => {
+  const truncateContent = (content, maxLength = 150) => {
     if (content.length <= maxLength) return content;
     return `${content.substring(0, maxLength)}...`; // Truncate and add ellipsis
   };
