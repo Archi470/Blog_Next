@@ -87,7 +87,14 @@ It includes admin login, post creation, editing, deletion, and Firebase authenti
     export const db = getFirestore(app);
     Note: Replace the placeholders (YOUR_API_KEY, YOUR_AUTH_DOMAIN, etc.) with your actual Firebase credentials.
 
+5. **Run the Project**
+   
+   To run the development server, use:
 
+      ```bash
+      npm run dev
+Now your app should be live at: http://localhost:3000
+   
 ## Contact
 For issues, improvements, or suggestions, feel free to open an issue on the GitHub repository or reach out through the contact methods on my profile. Happy coding! 
 
